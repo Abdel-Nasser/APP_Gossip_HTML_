@@ -1,3 +1,24 @@
+<body class="linear-gradient">
+
+<div class="container">
+  <div class="left">
+    <div class="header">
+      <h2 class="animation a1">Welcome Back</h2>
+      <h4 class="animation a2">Log in to your account using email and password</h4>
+    </div>
+    <div class="form">
+      <input type="email" class="form-field animation a3" placeholder="Email Address">
+      <input type="password" class="form-field animation a4" placeholder="Password">
+      <p class="animation a5"><a href="#">Forgot Password</a></p>
+      <button class="animation a6">LOGIN</button>
+    </div>
+  </div>
+  <div class="right"></div>
+</div>
+
+
+
+
 <p id="notice"><%= notice %></p>
 
 <h1>Users</h1>
@@ -5,8 +26,8 @@
 <table>
   <thead>
     <tr>
-      <th>First name</th>
-      <th>Last name</th>
+      <th>prenom</th>
+      <th>nom de famille</th>
       <th>Description</th>
       <th>Email</th>
       <th>Age</th>
@@ -33,3 +54,4 @@
 <br>
 
 <%= link_to 'New User', new_user_path %>
+</body>
