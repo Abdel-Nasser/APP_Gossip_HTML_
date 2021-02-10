@@ -12,6 +12,17 @@
 
   }
 
+h1,h2,h3,p
+      {
+        color:rgb(8, 116, 128);
+        text-align: center;
+        padding-top: 3rem;
+        text-shadow: 1px 1px 2px rgb(3, 6, 102), 0 0 1em blue, 0 0 0.2em blue;
+                  } 
+ 
+
+
+
   @import url("https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap");
   
   body {
